@@ -1,0 +1,49 @@
+
+body,html{
+    scroll-behavior:smooth;
+}
+
+a {text-decoration: none;
+    color:cornflowerblue;
+}
+a:hover{
+    color: red
+}
+#lego{
+    background: lightsteelblue;
+
+}
+body{
+    background: gray ;
+}
+h1.target{
+
+
+}
+
+.target {
+
+    background: silver;
+    color: #316b70;
+}
+.point{
+    font-size:15px ;
+
+
+}
+li{
+
+    color: gold;
+
+    font-size:25px;
+    list-style:none;
+    background: #f4faae;
+    margin-bottom:10px;
+
+}
+.y{
+    background:#489874
+}
+#x{
+    background:#7df3bf
+}

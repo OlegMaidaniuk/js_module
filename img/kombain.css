@@ -1,0 +1,61 @@
+.mister {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    width: auto;
+    border: black solid 10px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.underwear {
+    display: flex;
+    column-gap: 20px;
+    justify-content:space-between;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    height: auto;
+    height: 100%;
+    background: white;
+}
+
+/*.shirt.trousers.underpants {*/
+/*    background: gray;*/
+/*}*/
+
+.shirt {
+    height: 25%;
+    width: 100%;
+    background: gray;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trousers {
+    /*height: 200px;*/
+    height: 100%;
+    width: 70%;
+    background: gray;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underpants {
+    /*height: 200px;*/
+    height: 100%;
+    width: 30%;
+    background: gray;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+.golfs {
+    background: white;
+    min-height: 500px;
+    height: auto;
+    height: 100%;
+    width: auto;
+
+    border-radius: black 10px dashed;
+    display: flex;
+
+.laces { background: lightgoldenrodyellow;
+    min-height: 100px;
+    height: auto;
+    height: 30%;
+    width: 100%;
+
+}
+
+.laces {
+    width: 100%;
+}
+
+.layer1 {
+    background-color: #fc0; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 200px; /* Ширина слоя */
+}
+.layer2 {
+    background-color: #c0c0c0; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+     clear: left; /* Отмена обтекания */
+}

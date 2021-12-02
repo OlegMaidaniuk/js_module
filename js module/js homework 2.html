@@ -19,21 +19,31 @@
     // (time <= 59) ? document.write('все, майже за чверть восьма, вже йде лекція по js, зранку превьюху треба було дивитись!!'):
     // alert(message);
 
-    let time = 1;
-    if (time >= 0 && time <= 14) {
+    let time = 12;
+    if (0 <= time && time <= 14) {
         console.log(1)
-        document.write('перша чверть години');
-    } else if (time >= 15 && time <= 29) ;
+        document.write('<div>перша чверть години</div>');
+    } else if (15 <= time && time <= 29) {
+        console.log(2)
+        document.write(`<div>друга чверть години</div>`);
+    } else if (time >= 30 && time <= 44)
     {
-        console.log(2);
-        document.write('друга чверть години');
-    } else (time >= 30 && time <= 44) {
-        console.log(3);
-        document.write('третя чверть години');
-    } else if (time >= 45 && time <= 59) {
-        console.log(4)
-        document.write('четверта чверть години');
+        console.log(3)
+        document.write('<div>третя чверть години</div>');
     }
+    else if (59 >= time && time >= 45)
+    {
+        console.log(4)
+        document.write('<div>четверта чверть години</div>');
+    }
+    else(0>time&&time>=60)
+    {
+        console.log(0)
+        document.write('<div>тупняк капітальний</div>');
+
+    }
+
+
 
     //    aaa = 'hello';
     //    console.log(aaa)
@@ -44,9 +54,9 @@
     //
     //    - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє
     //    це число (у першу, другу чи третю).
-
+    //
     // let day = 16
-
+    // if ()
 
     //    - У нас є змінна test, якщо  не дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
     //        Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким
@@ -66,6 +76,11 @@
 
     //    - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
     //Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
+    //
+    // let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+    // if (year == 2015) alert( 'Вы правы!' );
+    //
+
 
     // let jskrpt = 'kjjknj';
 

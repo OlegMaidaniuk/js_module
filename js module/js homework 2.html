@@ -19,25 +19,86 @@
     // (time <= 59) ? document.write('все, майже за чверть восьма, вже йде лекція по js, зранку превьюху треба було дивитись!!'):
     // alert(message);
 
-    let time = 1;
-    if (time >= 0 && time <= 14) {
+
+    // let time=12;
+    // if(0 <= time && time <= 14)
+    // {
+    //     console.log(1);
+    //     document.write(перша чверть години);
+    // }
+    // else(15 <= time && time <= 29)
+    // {
+    //     console.log(2);
+    //     document.write(друга чверть години);
+    // }
+    // else(time >= 30 && time <= 44);
+    // {
+    //     console.log(3);
+    //     document.write(третя чверть години);
+    // }
+    // else(59 >= time && time >= 45)
+    // {
+    //     console.log(4)
+    //     document.write(четверта чверть години);
+    // }
+    //
+    // let time = 20;
+    // if(0<=time&&time<=59) {
+    //     console.log(`chverty`)
+    //     document.write(`<div>години</div>`);
+    //         }
+    //     else if(0 <= time && time <= 14) {
+    //     console.log(1)
+    //     document.write(`<div>перша чверть</div>`);
+    // }
+    //     else if(15 <= time && time <= 29) {
+    //     console.log(2)
+    //     document.write(`<div>друга чверть години</div>`);
+    //     }
+    //     else if(30 <= time && time <= 44)
+    //     {
+    //     console.log(3)
+    //     document.write(`<div>третя чверть години</div>`);
+    //     }
+    //     else if(45 <= time && time <= 59)
+    //     {
+    //     console.log(4)
+    //     document.write(`<div>четверта чверть години</div>`);
+    //     }
+    // else (time<=0 && time>59)
+    // {console.log('Ви ввели невірний час')
+    //     document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);
+    // }
+    //
+    //
+
+
+
+    let time = 28;
+    if (0 <= time && time <= 14) {
         console.log(1)
-        document.write('перша чверть години');
-    } else if (time >= 15 && time <= 29) ;
-    {
-        console.log(2);
-        document.write('друга чверть години');
-    } else (time >= 30 && time <= 44) {
-        console.log(3);
-        document.write('третя чверть години');
-    } else if (time >= 45 && time <= 59) {
-        console.log(4)
-        document.write('четверта чверть години');
+        document.write(`<div>перша чверть години</div>`);
     }
+        else if(15 <= time && time <= 29) {
+        console.log(2)
+        document.write(`<div>друга чверть години</div>`);
+        }
+        else if(30 <= time && time <= 44)
+        {
+        console.log(3)
+        document.write(`<div>третя чверть години</div>`);
+        }
+        else if (45 <= time && time <= 59)
+        {
+        console.log(4)
+        document.write(`<div>четверта чверть години</div>`);
+        }
+    else(time<=0)
+    {console.log('Ви ввели невірний час')
+        document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);}
 
     //    aaa = 'hello';
-    //    console.log(aaa)
-    //    aaa = 100500;
+    //    console.log(aaa)//    aaa = 100500;
     //    console.log(aaa);
 
 

@@ -19,6 +19,33 @@
     // (time <= 59) ? document.write('все, майже за чверть восьма, вже йде лекція по js, зранку превьюху треба було дивитись!!'):
     // alert(message);
 
+    let time = 'hjfghfgh';
+    if (0 < time && time < 59 && 0 <= time && time <= 14) {
+        console.log(1)
+        document.write(`<div>перша чверть години</div>`);
+    }
+        else if (0 < time && time < 59 && 15 <= time && time <= 29) {
+        console.log(2)
+        document.write(`<div>друга чверть години</div>`);
+    }
+        else if (0 < time && time < 59 && 30 <= time && time <= 44) {
+        console.log(3)
+        document.write(`<div>третя чверть години</div>`);
+    }
+        else if (0 < time && time <= 59 && 45 <= time && time <= 59) {
+        console.log(4)
+        document.write(`<div>четверта чверть години</div>`);
+    }
+        else if (time > 59)
+    {
+        console.log('Ви ввели невірний час')
+        document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);
+    }
+        else if (time = `string`) {
+        console.log(`vyvchay cifry`)
+        document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);
+    }
+
 
     // let time=12;
     // if(0 <= time && time <= 14)
@@ -72,30 +99,29 @@
     //
     //
 
-
-
-    let time = 28;
-    if (0 <= time && time <= 14) {
-        console.log(1)
-        document.write(`<div>перша чверть години</div>`);
-    }
-        else if(15 <= time && time <= 29) {
-        console.log(2)
-        document.write(`<div>друга чверть години</div>`);
-        }
-        else if(30 <= time && time <= 44)
-        {
-        console.log(3)
-        document.write(`<div>третя чверть години</div>`);
-        }
-        else if (45 <= time && time <= 59)
-        {
-        console.log(4)
-        document.write(`<div>четверта чверть години</div>`);
-        }
-    else(time<=0)
-    {console.log('Ви ввели невірний час')
-        document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);}
+    //
+    // let time = 28;
+    // if (0 <= time && time <= 14) {
+    //     console.log(1)
+    //     document.write(`<div>перша чверть години</div>`);
+    // }
+    //     else if(15 <= time && time <= 29) {
+    //     console.log(2)
+    //     document.write(`<div>друга чверть години</div>`);
+    //     }
+    //     else if(30 <= time && time <= 44)
+    //     {
+    //     console.log(3)
+    //     document.write(`<div>третя чверть години</div>`);
+    //     }
+    //     else if (45 <= time && time <= 59)
+    //     {
+    //     console.log(4)
+    //     document.write(`<div>четверта чверть години</div>`);
+    //     }
+    // else(time<=0)
+    // {console.log('Ви ввели невірний час')
+    //     document.write(`<div>Sprobuyte shche raz. Vy typovyi Afanasiy Vasyliovich</div>`);}
 
     //    aaa = 'hello';
     //    console.log(aaa)//    aaa = 100500;
@@ -105,8 +131,10 @@
     //
     //    - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє
     //    це число (у першу, другу чи третю).
-
+    //
     // let day = 16
+
+
 
 
     //    - У нас є змінна test, якщо  не дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
@@ -119,7 +147,7 @@
     //    - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день.
     //
     //    - Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
-    //
+    // //
     // let year = 2021;
     // let year % 4;
     // if(year !== 0){document.write('365');}

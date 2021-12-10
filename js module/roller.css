@@ -1,0 +1,39 @@
+body {
+
+    margin: 0;
+}
+
+h2 {
+    margin: 3px;
+    text-align: center;
+
+}
+
+
+.roller {
+
+
+    height: 800px;
+    background: yellow;
+    width: 50%;
+    display: flex;
+
+
+}
+
+
+.wrap {
+
+    background: silver;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.sent {
+
+    width: 200px;
+
+}

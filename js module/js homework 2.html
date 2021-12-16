@@ -129,7 +129,7 @@
     // let firstpolovin >0 && firstpolovin <= 15;
     // let secondpolovin>15 && secondpolovin<=31;
 
-    let day = 'jhgh';
+    let day = '';
     if (day<=15&&day>0)
     {
         document.write('<div>перша половина місяця</div>');
@@ -137,7 +137,7 @@
     else if(day>=15&&day<=31)
     {
         document.write('<div>друга половина місяця</div>');}
-    if (day<=10)
+    if (day<=10&&day>0)
         {
             console.log('перша декада');
         }
@@ -149,9 +149,9 @@
         {
             console.log('третя декада');
         }
-    else if(day='jhghhh')
+    else(day===false)
     {
-        document.write('<div>вчи календар, сіноптік</div>')
+        document.write('<div>вчи календар, сіноптік</div>');
     }
 
     // else (day===secondpolovin)
@@ -193,7 +193,7 @@
         document.write('366 days');
     }
 
-    //    - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
+    //    - Використовуючи кон/струкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
     //Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
     //
     // let jskrpt = prompt('Яка офіційна назва JavaScript?');

@@ -126,13 +126,44 @@
     //    - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє
     //    це число (у першу, другу чи третю).
     //
-    // let day = 16
+    // let firstpolovin >0 && firstpolovin <= 15;
+    // let secondpolovin>15 && secondpolovin<=31;
+
+    let day = 19;
+    if (day<=15)
+    {
+        document.write('<h2>перша половина місяця</h2>');
+    }
+    else if(day<=15)
+    {
+        document.write('<h2>друга половина місяця</h2>');
+    {if (day <= 10)
+        {
+            console.log('перша декада');
+        }
+        else if (day > 10 && day <= 20)
+        {
+            console.log('друга декада');
+        }
+        else if (day > 20 && day <= 30)
+        {
+            console.log('третя декада');
+        }
+    }
+    }
+    else (day='???????')
+    {
+        document.write('<div>вчи календар, сіноптік</div>')
+    }
+
+    // else (day===secondpolovin)
+
 
 
     //    - У нас є змінна test, якщо  не дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
     //        Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким
     //        записом(тернаркою)
-    let test
+    let test=false;
     let vas = test !== true ? 'вірно' : 'неправильно';
     console.log(vas);
 

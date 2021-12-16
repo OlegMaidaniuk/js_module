@@ -138,9 +138,15 @@
 
 
     //    - Якщо змінна a не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
-    let a
+
+    let a=0;
+    if (a!==0) {
+        console.log('Вірно')
+        document.write('<h1>Вірно</h1>');
+    } else if(a===0)
     {
-        if (a !== 0) ;
+        console.log('НЕ Вірно')
+        document.write('<h1>Не вірно</h1>');
     }
 
 
@@ -153,8 +159,7 @@
     if (data !== 0) {
         console.log('НЕ Високосний')
         document.write('365 days');
-    } else
-    {
+    } else {
         console.log('Високосний')
         document.write('366 days');
     }
@@ -162,21 +167,14 @@
     //    - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
     //Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
 
-    let jskrpt=prompt('Яка офіційна назва JavaScript?');
-    if(jskrpt==='ECMAScript')
-    {
-     document.write('<h1>Your GENIUSSS!</h1>');
-    }
-    else(jskrpt !== 'ECMAScript')
-    {
+    let jskrpt = prompt('Яка офіційна назва JavaScript?');
+    if (jskrpt === 'ECMAScript') {
+        document.write('<h1>You-GENIUSSS!</h1>');
+    } else if (jskrpt != 'ECMAScript') {
         document.write('<h1>Не знаєте? ECMAScript!</h1>');
     }
 
 
-
-
-    //
-    //
 </script>
 </body>
 </html>

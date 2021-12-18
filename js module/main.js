@@ -5,14 +5,24 @@
 // - з 5 значень стрічкового, числового та булевого типу
 // - та вивести його в консоль
 
-let num = [1, 1992, 2002, 2021, 911];
-let text = ['one', 'two', 'apple', 'team', 'okten'];
-let all = [false, 'two', 1996, true, 'okten'];
-console.log(text);
-console.log(num);
-console.log(all);
+let alf = [8, 65, 87, 112, 911];
+let book = ['father', 'mother', 'desk', 'road', 'sitizen'];
+let they = [ true, false,'window', 54, 'vivaldi', 'three'];
+console.log(alf);
+console.log(book);
+console.log(they);
 
 // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
+
+let mass=[];
+mass[0]='mister';
+mass[1]='anderson';
+mass[2]='welcom';
+mass[3]='back';
+console.log(mass);
+document.write(mass);
+
+
 
 let array = [];
 array[0] = 'Happy';

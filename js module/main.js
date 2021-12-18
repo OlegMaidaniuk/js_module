@@ -39,12 +39,12 @@ document.write(array);
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 
-for (let i = 0; i < 10; i++) {
-    document.write(`<div>empty text</div>`);
+for (let i = 0; i <= 9; i++) {
+    document.write(`<div>mery cristmass</div>`);
 }
 
-for (let i = 0; i < 10; i++) {
-    document.write(`<div>${i} - empty text with index array for</div>`);
+for (let i = 0; i <= 10; i++) {
+    document.write(`<div>${i} - count chickens</div>`);
 }
 
 let j =0;

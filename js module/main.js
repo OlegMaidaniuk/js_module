@@ -25,10 +25,13 @@ document.write(mass);
 
 
 let array = [];
-array[0] = 'Happy';
-array[1] = 'New';
-array[2] = 2022;
-array[3] = 'Year';
+array[0] = 'Rybka';
+array[1] = 'plavayet';
+array[2] = 'po';
+array[3] = 'dnu';
+array[4] = 'vypiem';
+array[5] = 'stopochku';
+array[6] = 'odnu';
 console.log(array);
 document.write(array);
 
@@ -39,38 +42,44 @@ document.write(array);
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 
-for (let i = 0; i <= 9; i++) {
+
+for (let i = 0; i <= 9; i++)
+{
     document.write(`<div>mery cristmass</div>`);
 }
 
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i < 10; i++)
+{
     document.write(`<div>${i} - count chickens</div>`);
 }
 
-let j =0;
-while(j<10){
-    document.write(`<div>empty text while</div>`);
-    j++;
+let f =0;
+while(f<20)
+{
+    document.write(`<h1>i'll definitely make it</h1>`);
+    f++;
 }
 
-let g =0;
-while(g<10){
-    document.write(`<div>${g} - empty text with index array while</div>`);
-    g++;
+let x=1;
+while(x<=20)
+{
+    document.write(`<h1>${x} - apples</h1>`);
+    x++;
 }
 
 
 // - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 
-let stringArray = ['one', 'two', 'apple', 'team', 'okten', 'hello', '2021', 'year', 'audi', 'js'];
-for (i = 0; i < stringArray.length; i++) {
-    console.log(stringArray[i])
+let numArray = [2,4,7,9,15,26,47,55,111,800];
+for (i = 0; i < numArray.length; i++) {
+    console.log(numArray[i]);
+
 }
 
 // - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
-let numArray = [1,2,3,4,5,6,7,8,9,90];
-for (i = 0; i < numArray.length; i++) {
-    console.log(numArray[i])
+let stringArray = ['cow', 'yellov', 'fish', 'desk', 'beautifly', 'book', '2022', 'mons', 'skoda', 'exel'];
+for (i = 0; i < stringArray.length; i++) {
+    console.log(stringArray[i]);
 }
 
 
@@ -78,7 +87,7 @@ for (i = 0; i < numArray.length; i++) {
 
 let allArray = [false, 'two', 1996, true, 'okten',23,45,'vasia',{},[],'hi'];
 for (i = 0; i < allArray.length; i++) {
-    console.log(allArray[i])
+    console.log(allArray[i]);
 }
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи

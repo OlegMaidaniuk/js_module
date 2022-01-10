@@ -85,14 +85,14 @@ for (i = 0; i < stringArray.length; i++) {
 
 // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
 
-let allArray = [false, 'two', 1996, true, 'okten',23,45,'vasia',{},[],'hi'];
+let allArray = [false, true, {}, [], 'one', 20080, 26, 888, 'window', 'ok'];
 for (i = 0; i < allArray.length; i++) {
     console.log(allArray[i]);
 }
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
 
-let arrayBoolean = [false, 'two', 1996, true, 'okten', 23, 45, 'vasia', {}, [], 'hi'];
+let arrayBoolean = [false, true, {}, [], 'one', 20080, 26, 888, 'window', 'ok'];
 for (i = 0; i < arrayBoolean.length; i++) {
     if (typeof arrayBoolean[i] === 'boolean') {
         console.log(arrayBoolean[i]);
@@ -101,7 +101,7 @@ for (i = 0; i < arrayBoolean.length; i++) {
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 
-let arrayNumber = [false, 'two', 1996, true, 'okten', 23, 45, 'vasia', {}, [], 'hi'];
+let arrayNumber = [false, true, {}, [], 'one', 20080, 26, 888, 'window', 'ok'];
 for (i = 0; i < arrayNumber.length; i++) {
     if (typeof arrayNumber[i] === 'number') {
         console.log(arrayNumber[i]);
@@ -110,7 +110,7 @@ for (i = 0; i < arrayNumber.length; i++) {
 
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
 
-let arrayString = [false, 'two', 1996, true, 'okten', 23, 45, 'vasia', {}, [], 'hi'];
+let arrayString = [false, true, {}, [], 'one', 20080, 26, 888, 'window', 'ok'];
 for (i = 0; i < arrayString.length; i++) {
     if (typeof arrayString[i] === 'string') {
         console.log(arrayString[i]);
@@ -121,19 +121,21 @@ for (i = 0; i < arrayString.length; i++) {
 // Вивести в консоль всі його елементи в циклі.
 
 let newEmptyArray = [];
-newEmptyArray[0] = 'Happy';
-newEmptyArray[1] = 'New';
-newEmptyArray[2] = 2022;
-newEmptyArray[3] = 'Chto';
-newEmptyArray[4] = 'Gde';
-newEmptyArray[5] = 'Kuda';
-newEmptyArray[6] = 'Sinho Faza Tron';
-newEmptyArray[7] = true;
-newEmptyArray[8] = 2019;
-newEmptyArray[9] = false;
+newEmptyArray[0] = 'festival';
+newEmptyArray[1] = 'jakarta';
+newEmptyArray[2] = 1785;
+newEmptyArray[3] = 'kokos';
+newEmptyArray[4] = 'Mayami';
+newEmptyArray[5] = 'Zvidki';
+newEmptyArray[6] = 2019;
+newEmptyArray[7] = 'Pinopoleuretan';
+newEmptyArray[8] = false;
+newEmptyArray[9] = true;
 
-for (let i = 0; i < newEmptyArray.length; i++) {
-    console.log(newEmptyArray[i]);
+
+
+for (let b = 0; b < newEmptyArray.length; b++) {
+    console.log(newEmptyArray[b]);
 }
 
 

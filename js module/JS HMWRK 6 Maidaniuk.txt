@@ -1,0 +1,95 @@
+JS HMWRK 6 Maidaniuk 
+// - Знайти та вивести довжину наступних стрінгових значень
+
+let strinLen = 'hello world';
+console.log(strinLen.length);
+
+let strngLeng = 'lorem ipsum';
+console.log(strngLeng.length);
+
+let strLengh = 'javascript is cool';
+console.log(strLengh.length);
+
+// - Перевести до великого регістру наступні стрінгові значення
+
+let bigLetter = 'hello world';
+let upBleter = bigLetter.toLocaleUpperCase();
+console.log(upBleter);
+
+let bigLeter = 'lorem ipsum';
+let upBletter = bigLeter.toLocaleUpperCase();
+console.log(upBletter);
+
+let bigLet = 'javascript is cool';
+let upBlet = bigLet.toLocaleUpperCase();
+console.log(upBlet);
+
+// - Перевести до нижнього регістру настипні стрінгові значення
+// 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
+
+let smolLetter = 'HELLO WORLD';
+let downSleter = smolLetter.toLocaleLowerCase();
+console.log(downSleter);
+
+let smollLeter = 'LOREM IPSUM';
+let dowBletter = smollLeter.toLocaleLowerCase();
+console.log(dowBletter);
+
+let smoLet = 'JAVASCRIPT IS COOL';
+let downBlet = smoLet.toLowerCase();
+console.log(downBlet);
+
+
+// - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+let keepItDirty = ' dirty string   ';
+let notKeep = keepItDirty.trim();
+console.log(notKeep);
+
+
+// - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
+
+let stringToarray = (str) => {
+    return str.split(' ');
+}
+let str = 'Каждый охотник желает знать';
+let arr = stringToarray(str);
+console.log(arr);
+
+// - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
+
+let strn = 'Каждый охотник желает знать';
+let delete_characters = (str, index) => {
+    return str.substr(0, index);
+};
+// let str = 'Каждый охотник желает знать';
+document.writeln(delete_characters(strn, 9));
+
+
+// - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами.
+// При цьому всі символи рядка необхідно перевести у верхній регістр.
+
+let hjj = "HTML JavaScript PHP";
+// document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
+let insert_dash = (hjj) => {
+    let insert_dash = hjj.split(' ').join('-').toUpperCase();
+    return insert_dash;
+}
+console.log(insert_dash(hjj));
+document.write(insert_dash(hjj)); // 'HTML-JAVASCRIPT-PHP'
+
+// - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
+
+let firstUp = (str) => {
+    if (!str) return str; // перевірка на те чи стрічка не пуста, а саме чи не пустий [0] індекс
+    return str[0].toUpperCase() + str.slice(1)
+};
+document.write(firstUp('hello okten'));
+console.log(firstUp('hello okten'));
+
+
+// - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
+let capitalize = (str) => {
+    return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+};
+document.write(capitalize('okten hi, you are welcome'));
+console.log(capitalize('okten hi, you are welcome'));
